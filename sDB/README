@@ -1,0 +1,5 @@
+sDB is a program that utilizes the rednet api to authenticate clients over a network.
+It will read from a tokens database ("/tokens"), and/or an optional secondary server, and reply with "true" over the network
+to the sender of the request, if the token exists. Otherwise, "false" is returned.
+
+Optional Client restriction and backdoor functionality is available in the configuration starting on line 13 of the program.

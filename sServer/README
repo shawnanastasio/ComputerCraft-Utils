@@ -1,0 +1,3 @@
+sServer/sClient is a software suite that provides a basic information delivery system, similar to a web server and browser.
+
+Place files in /server/ to be served by sServer.
